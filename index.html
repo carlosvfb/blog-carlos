@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+    <title>Blog Capoeira | Carlos</title>
+</head>
+<body>
+    
+    <main>
+        <input type="checkbox" id="menu-hamburger" />
+
+            <label for="menu-hamburger">
+                <div class="menu">
+                    <span class="hamburguer"></span>
+                </div>
+            </label>
+        <aside class="navegacao">
+            <ul class="Links">
+                <li onclick="Navigate(0)" class="activeLink"><i class="fa-solid fa-house"></i>
+                    <p>Página Inicial</p>
+                </li>
+                <li onclick="Navigate(1)"><i class="fa-solid fa-book"></i>
+                    <p>História da Capoeira</p>
+                </li>
+                <li onclick="Navigate(2)"><i class="fa-solid fa-person-walking"></i>
+                    <p>Movimentos</p>
+                </li>
+                <li onclick="Navigate(3)"><i class="fa-solid fa-music"></i>
+                    <p>Toques de Berimbau</p>
+                </li>
+                <li onclick="Navigate(4)"><i class="fa-solid fa-code"></i>
+                    <p>Desenvolvido por</p>
+                </li>
+            </ul>
+        </aside>
+        <div class="swiper mySwiper">
+            <div class="SlideContainer swiper-wrapper">
+                <section class="swiper-slide home-slide">
+                    <div class="home-details">
+                        <div class="HomeContent">
+                            <h1>Olá! Seja muito bem vindo(a) ao meu blog de <span class="stylized-name">capoeira</span>,</h1>
+                            <h2>Sou <span class="proffesions">Carlos Vítor</span></h2>
+                            <p class="heroline">E vim mostrar um pouco sobre essa arte maravilhosa. Aqui, você encontrará histórias inspiradoras,
+                                tutoriais detalhados de movimentos, a história e a cultura da capoeira, além de dicas para iniciantes. A capoeira não é apenas um esporte, é uma expressão de liberdade,
+                                resistência e comunidade. Vamos explorar juntos essa jornada fascinante e descobrir o poder transformador
+                                da capoeira na vida das pessoas.</p>
+                        </div>
+                        <div class="home-img">
+                            <div class="SideImg">
+                                <div class="top-right-corner">
+                                    <hr class="hr1">
+                                    <hr class="hr2">
+                                </div>
+                                <img src="https://coralplaza.com.br/wp-content/uploads/2019/12/271560-reservada-para-rosana-entregar-ate-2201-arte-e-resistencia-a-historia-da-capoeira.jpg" alt="">
+                                <div class="bottom-left-corner">
+                                    <hr class="hr1">
+                                    <hr class="hr2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="slide-help">Deslise para mais conteúdo <i class="fa-solid fa-chevron-right fa-shake"></i>
+                    </p>
+                </section>
+                <div class="swiper-slide history">
+                    <section class="history-content">
+                        <div class="history-details">
+                            <h1 class="heading">História da Capoeira</h1>
+                            <p class="initial-paragraph">A capoeira é uma expressão cultural que mistura arte marcial, esporte, cultura popular e música. Desenvolvida no Brasil principalmente por descendentes de escravos africanos, é conhecida por seus movimentos ágeis e complexos, utilizando principalmente chutes, rasteiras e acrobacias.</p>
+                        </div>
+                        <div class="category-container">
+                            <div class="category">
+                                <h2>Origens</h2>
+                                <div class="dropdown-content">
+                                    <div class="faq-section">
+                                        <div class="faq-question">O que são as origens da Capoeira?</div>
+                                        <div class="faq-answer">A Capoeira tem suas origens nas tradições africanas trazidas ao Brasil pelos escravizados, combinando elementos de dança, luta e música.</div>
+                                    </div>
+                                    <div class="faq-section">
+                                        <div class="faq-question">Quando e onde surgiu a Capoeira?</div>
+                                        <div class="faq-answer">A Capoeira surgiu no Brasil durante o período colonial, especialmente entre os séculos XVI e XVII, nas senzalas e quilombos.</div>
+                                    </div>
+                                    <img src="https://i0.wp.com/www.capoeiratorino.it/storia/foto5.jpg" alt="Origens da Capoeira">
+                                </div>
+                            </div>
+                        
+                            <div class="category">
+                                <h2>Evolução</h2>
+                                <div class="dropdown-content">
+                                    <div class="faq-section">
+                                        <div class="faq-question">Como ocorreu a evolução da Capoeira?</div>
+                                        <div class="faq-answer">A Capoeira evoluiu de uma prática de resistência e sobrevivência dos escravizados para uma forma de expressão cultural e arte marcial reconhecida mundialmente.</div>
+                                    </div>
+                                    <div class="faq-section">
+                                        <div class="faq-question">Quais são os diferentes estilos de Capoeira?</div>
+                                        <div class="faq-answer">Existem dois principais estilos de Capoeira: a Capoeira Angola, que preserva tradições mais antigas, e a Capoeira Regional, que é uma versão mais moderna e acrobática.</div>
+                                    </div>
+                                    <img src="https://imgs.search.brave.com/v-jjYUO59AiWLUYFtBc1at6oRmTnPWXMNs6OCVc-4qo/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/YWppdHVjYXBvZWly/YS5jb20vaW1nL2Jp/bWJhLmpwZw" alt="Evolução da Capoeira" style="width:100%; max-width:400px;">
+                                    <h3>Mestre Bimba - criador da Capoeira regional</h3>
+                                </div>
+                            </div>
+                        
+                            <div class="category">
+                                <h2>Reconhecimento e Popularização</h2>
+                                <div class="dropdown-content">
+                                    <div class="faq-section">
+                                        <div class="faq-question">Como aconteceu o reconhecimento da Capoeira?</div>
+                                        <div class="faq-answer">A Capoeira foi oficialmente reconhecida como patrimônio cultural brasileiro em 2008, e em 2014 a UNESCO a declarou Patrimônio Cultural Imaterial da Humanidade.</div>
+                                    </div>
+                                    <div class="faq-section">
+                                        <div class="faq-question">O que levou à popularização da Capoeira?</div>
+                                        <div class="faq-answer">A popularização da Capoeira se deve à sua rica mistura de arte marcial, música e dança, além do trabalho de mestres que difundiram a prática pelo Brasil e pelo mundo.</div>
+                                    </div>
+                                    <img src="https://imgs.search.brave.com/qjZQdZcDCq8WSSDsqT_GD-4pCAi4Tg0S-3d7dyDMwHc/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMuc2lnbmlmaWNh/ZG9zLmNvbS5ici9m/b3RvL2NhcG9laXJh/LXJvZGEtY2EuanBn" alt="Reconhecimento da Capoeira" style="width:100%; max-width:600px;">
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+                <div class="swiper-slide moviments">
+                    <section>
+                        <ul class="moviments-container">
+                            <li class="card-moviment">
+                                <h2>Ginga</h2>
+                                <p>Movimento base da capoeira. É um balanço constante que permite ao capoeirista estar sempre em movimento, pronto para atacar ou se defender.</p>
+                                <img src="https://imgs.search.brave.com/khhneAZUpKIvEvaJFXLNhDnI79XGp_EKJaF9hwVwv10/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YXJ0ZWN1bHR1cmFj/YXBvZWlyYS5jb20u/YnIvc2l0ZS9pbWFn/ZXMvYWNhcG9laXJh/L2dvbHBlcy9naW5n/YS5naWY.gif" alt="movimento ginga">
+                            </li>
+                            <li class="card-moviment">
+                                <h2>Meia-lua de frente</h2>
+                                <p>Um chute giratório em que o capoeirista gira o corpo para aplicar o golpe com o calcanhar da perna estendida.</p>
+                                <img src="https://imgs.search.brave.com/HlNHZHi63_V2z9wh3KUJ878Y_ERJsINf_LXRRxWLA6c/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG9n/Z2VyLmdvb2dsZXVz/ZXJjb250ZW50LmNv/bS9pbWcvYi9SMjl2/WjJ4bC9BVnZYc0Vo/eVd6S0hOZXBXc0hO/MGVfV1VfanozT1hj/d2Jha3lhVDA2WFIy/V2hYa3d0Mlc4T0xp/ZVJnU3Q0VnZSZFhT/QlJCdnZWZGJaSkUw/VFBKRUdMRjFnM3k0/QXpHQm1FVm0tVFJQ/RkVOeE9vY2FqMldL/N2lVUXJtdDIzY245/SWNoMXY5MVdOSkEz/dGhOckFuTjAvczE2/MDAvbWVpYWx1YWRl/ZnJlbnRlLmdpZg.gif" alt="movimento meia-lua de frente">
+                            </li>
+                            <li class="card-moviment">
+                                <h2>Armada</h2>
+                                <p>Um chute giratório, parecido com a meia-lua de compasso, mas executado em pé e com a perna de ataque saindo da frente.</p>
+                                <img src="https://imgs.search.brave.com/2L4ynKtvN_DXkPmBUkfpWeyAxXv6T7kHdI8I7Bw2awU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YXJ0ZWN1bHR1cmFj/YXBvZWlyYS5jb20u/YnIvc2l0ZS9pbWFn/ZXMvYWNhcG9laXJh/L2dvbHBlcy9hcm1h/ZGEuZ2lm.gif" alt="movimento armada">
+                            </li>
+
+                            <li class="card-moviment">
+                                <h2>Queixada</h2>
+                                <p>Um chute circular que começa com a perna de ataque cruzando na frente do corpo e girando em um movimento amplo.</p>
+                                <img src="https://imgs.search.brave.com/s1RwwndWrW_Fg8LFr0rELqi_na_SkaLk7_v5e1mcwTc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9ibG9n/Z2VyLmdvb2dsZXVz/ZXJjb250ZW50LmNv/bS9pbWcvYi9SMjl2/WjJ4bC9BVnZYc0Vp/dFh5TGdSVzJqOElQ/cFkzcUpkc28tZWNR/ZGFOQ1l4Vkoya2ZP/eXFENkEzNzVSbHNj/VXFNVDJ6bkhUcFZu/SmtxN1I2RGNaX0h4/WWthV2NacDdsQUxG/OFNJUTVtRVlZWEJO/XzQ4TFNiRW51RUlQ/SzR4c1pxRWhSaHlt/OVZaWDUzaFZRNENm/c0NoM0Q1a0kvczE2/MDAvcXVlaXhhZGEu/Z2lm.gif" alt="movimento queixada">
+                            </li>
+                            <li class="card-moviment">
+                                <h2>Meia-lua de compasso</h2>
+                                <p>Um chute giratório em que o capoeirista gira o corpo para aplicar o golpe com o calcanhar da perna estendida.</p>
+                                <img src="https://imgs.search.brave.com/tu7y3_qUu_LNqfsIOL5k8NtMnvdJQcII2-B_zKeIYhI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YXJ0ZWN1bHR1cmFj/YXBvZWlyYS5jb20u/YnIvc2l0ZS9pbWFn/ZXMvYWNhcG9laXJh/L2dvbHBlcy9tZWlh/bHVhZGVjb21wYXNz/by5naWY.gif" alt="movimento queixada">
+                            </li>
+
+                            <li class="card-moviment">
+                                <h2>Martelo</h2>
+                                <p> Um chute frontal direto, com a perna esticada e o pé atingindo o oponente com o dorso.</p>
+                                <img src="https://imgs.search.brave.com/d9i6weLnk8ETMkX1ht-VhkDycc1L9WjFk9GqAnB_jfQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/YXJ0ZWN1bHR1cmFj/YXBvZWlyYS5jb20u/YnIvc2l0ZS9pbWFn/ZXMvYWNhcG9laXJh/L2dvbHBlcy9tYXJ0/ZWxvZW1wZS5naWY.gif" alt="movimento martelo">
+                            </li>
+                            <li class="card-moviment">
+                                <h2>Benção</h2>
+                                <p>Um chute frontal, semelhante a um empurrão, onde a perna é esticada para atingir o oponente com a sola do pé.</p>
+                                <img src="https://imgs.search.brave.com/tcPU0ujSXf3N5aUYZ9727Ia0pt4KLChGH9dXLrIU3L8/rs:fit:860:0:0:0/g:ce/aHR0cDovLzRndXR6/LmNvbS9jYXBvZWly/YS9Nb3ZpbWVudG9z/X2ZpbGVzL2JlbmNh/by5naWY.gif" alt="movimento benção">
+                            </li>
+                            <li class="card-moviment">
+                                <h2>Ponteira</h2>
+                                <p>Um chute frontal reto, executado com o pé de ataque apontado para a frente.</p>
+                                <img src="https://imgs.search.brave.com/TOw-HbUsHowQDbTVRFDAQ0r8hEa02QNUC-Q3Dqxywtw/rs:fit:860:0:0:0/g:ce/aHR0cDovLzRndXR6/LmNvbS9jYXBvZWly/YS9Nb3ZpbWVudG9z/X2ZpbGVzL3BvbnRl/aXJhLmdpZg.gif" alt="movimento ponteira">
+                            </li>
+                            <li class="card-moviment">
+                                <h2>Aú</h2>
+                                <p>Movimento de acrobacia parecido com uma estrela ou cambalhota lateral.</p>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/c/cc/Capoeira_animation_auregional.gif" alt="movimento aú">
+                            </li>
+                            <li class="card-moviment">
+                                <h2>Macaco</h2>
+                                <p>Um movimento acrobático onde o capoeirista se lança para trás ou para o lado com uma mão no chão, similar a um aú invertido.</p>
+                                <img src="https://imgs.search.brave.com/r-RgrRGfEeXqADmCN_biUVMsIOR_WwG1IdieyVBVw68/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMud2l4c3RhdGlj/LmNvbS9tZWRpYS9h/OTcwOWJfZTVjZjU1/NGViZjI0NDE3MGEy/NzJlOWNjMjdhMDIy/MTZ-bXYyLmdpZg.gif" alt="movimento macaco">
+                            </li>
+                            <li class="card-moviment">
+                                <h2>Rolê</h2>
+                                <p>Um movimento de rotação no chão, usado para esquivar ou mudar de posição.</p>
+                                <img src="https://imgs.search.brave.com/FkVyGFI1F4FcJ3cT5bgThOc_9DuYCUmP1UvJAQPLLk0/rs:fit:860:0:0:0/g:ce/aHR0cDovLzRndXR6/LmNvbS9jYXBvZWly/YS9Nb3ZpbWVudG9z/X2ZpbGVzL3JvbGUu/Z2lm.gif" alt="movimento rolê">
+                            </li>
+                            <li class="card-moviment">
+                                <h2>Cocorinha</h2>
+                                <p>Um movimento de defesa onde o capoeirista se agacha completamente para evitar um ataque.</p>
+                                <img src="https://imgs.search.brave.com/iptjWnbBtCz3ap7E8iJEpRoLKmgIjIbZnlYx_59nNjw/rs:fit:860:0:0:0/g:ce/aHR0cDovLzRndXR6/LmNvbS9jYXBvZWly/YS9Nb3ZpbWVudG9z/X2ZpbGVzL2NvY29y/aW5oYS5naWY.gif" alt="movimento cocorinha">
+                            </li>
+                        </ul>
+                    </section>
+                </div>
+                <div class="swiper-slide gallery">
+                    <section class="projects">
+                        <div class="project">
+                            <h2>Toque de Angola</h2>
+                            <p>O Toque de Angola é um dos toques mais tradicionais da capoeira, caracterizado por um ritmo lento e solene. Ele é utilizado nas rodas de capoeira Angola, um estilo mais antigo e ritualístico da capoeira.</p>
+                            <audio id="audio-angola" src="./src/audio/toque-de-angola.mp3"></audio>
+                            <button class="play-button" data-audio-id="audio-angola">Play</button>
+                        </div>
+                        <div class="project">
+                            <h2>Toque de São Bento Pequeno</h2>
+                            <p>Este toque é usado para iniciar uma roda de capoeira Angola. É um toque que chama os capoeiristas para o jogo, mantendo um ritmo moderado.</p>
+                            <audio id="audio-sao-bento-pequeno" src="./src/audio/toque-de-sao-bento-pequeno.mp3"></audio>
+                            <button class="play-button" data-audio-id="audio-sao-bento-pequeno">Play</button>
+                        </div>
+                        <div class="project">
+                            <h2>Toque de São Bento Grande de Angola</h2>
+                            <p>Conhecido por seu ritmo acelerado, o Toque de São Bento Grande de Angola é tocado para jogos mais dinâmicos e agressivos dentro da roda de capoeira Angola.</p>
+                            <audio id="audio-sao-bento-grande" src="./src/audio/toque-de-sao-bento-grande-de-angola.mp3"></audio>
+                            <button class="play-button" data-audio-id="audio-sao-bento-grande">Play</button>
+                        </div>
+                        <div class="project">
+                            <h2>Toque de Benguela</h2>
+                            <p>O Toque de Benguela é caracterizado por um ritmo lento e introspectivo. Ele é frequentemente utilizado para jogos mais técnicos e menos agressivos.</p>
+                            <audio id="audio-benguela" src="./src/audio/toque-de-banguela.mp3"></audio>
+                            <button class="play-button" data-audio-id="audio-benguela">Play</button>
+                        </div>
+                        <div class="project">
+                            <h2>Toque de Íuna</h2>
+                            <p>Este toque é tocado para jogos de mestres, sendo um toque de respeito e técnica. O jogo sob o Toque de Íuna é mais elegante e menos combativo.</p>
+                            <audio id="audio-iuna" src="./src/audio/toque-de-iuna.mp3"></audio>
+                            <button class="play-button" data-audio-id="audio-iuna">Play</button>
+                        </div>
+                        <div class="project">
+                            <h2>Toque de Santa Maria</h2>
+                            <p>O Toque de Santa Maria é utilizado em cerimônias e rituais dentro da capoeira, possuindo um ritmo marcante e cerimonial.</p>
+                            <audio id="audio-santa-maria" src="./src/audio/toque-de-santa-maria.mp3"></audio>
+                            <button class="play-button" data-audio-id="audio-santa-maria">Play</button>
+                        </div>
+                        <div class="project">
+                            <h2>Toque de São Bento Grande da Regional</h2>
+                            <p>Este toque é conhecido por seu ritmo acelerado, sendo utilizado em jogos mais rápidos e agressivos na capoeira regional.</p>
+                            <audio id="audio-sao-bento-grande-da-regional" src="./src/audio/toque-de-sao-bento-grande-da-regional.mp3"></audio>
+                            <button class="play-button" data-audio-id="audio-sao-bento-grande-da-regional">Play</button>
+                        </div>
+                        
+                        <div class="project">
+                            <h2>Toque de Cavalaria</h2>
+                            <p>O Toque de Cavalaria era historicamente utilizado para alertar os capoeiristas da aproximação da polícia. É um toque de alerta e atenção.</p>
+                            <audio id="audio-cavalaria" src="./src/audio/toque-de-cavalaria.mp3"></audio>
+                            <button class="play-button" data-audio-id="audio-cavalaria">Play</button>
+                        </div>
+                        <div class="project">
+                            <h2>Toque de Amazonas</h2>
+                            <p>Este toque é utilizado para jogos mais exibicionistas, destacando a habilidade e destreza dos capoeiristas na roda.</p>
+                            <audio id="audio-amazonas" src="./src/audio/toque-de-amazonas.mp3"></audio>
+                            <button class="play-button" data-audio-id="audio-amazonas">Play</button>
+                        </div>
+                        <div class="project">
+                            <h2>Toque de Idalina</h2>
+                            <p>Este toque é utilizado em momentos de celebração, trazendo uma energia festiva para a roda de capoeira.</p>
+                            <audio id="audio-idalina" src="./src/audio/toque-de-idalina.mp3"></audio>
+                            <button class="play-button" data-audio-id="audio-idalina">Play</button>
+                        </div>
+                    </section>
+                </div>
+                <div class="swiper-slide contactMe">
+                    <section class="home">
+                        <div class="informacoes">
+                            <h1>Olá! meu nome é Carlos Vítor,</h1>
+                            <p>E sou um capoeirista apaixonado de Brasilia-DF. Desde criança, sempre fui fascinado por movimentos acrobáticos e pela cultura brasileira, e foi assim que conheci a capoeira. 😁</p>
+                            <p>Comecei a treinar capoeira aos 18 anos, em 2023, no grupo Capoeiristas do Rei, sob a orientação do mestre Pedro Telles. No começo, foi desafiador coordenar os movimentos e acompanhar o ritmo das músicas, mas com persistência e paixão, fui progredindo e me apaixonando cada vez mais por essa arte. 😍</p>
+                            <p>A capoeira transformou minha vida de várias maneiras. Ela me trouxe disciplina, melhorou minha saúde física e mental, e me ajudou a construir amizades duradouras. A comunidade capoeirista é como uma família para mim, e sou grato por cada pessoa que conheci através dessa arte. 😊</p>
+                            <p>Para saber mais sobre mim, minhas paixões e meus trabalhos, é só me seguir nas redes sociais abaixo! 😎</p>
+                
+                            <ul class="redes-sociais">
+                                <li><a href="https://www.linkedin.com/in/carlos-barboza-080842218" title="Ir para o LikedIn" target="_blank">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </a></li>
+                                <li><a href="https://wa.me/5561999607934" title="Enviar Mensagem no WhatsApp" target="_blank">
+                                        <i class="fab fa-whatsapp"></i>
+                                    </a></li>
+                                <li><a href="https://github.com/carlosvfb" title="Ir para o GitHub" target="_blank">
+                                        <i class="fab fa-github"></i>
+                                    </a></li>
+                                <li><a href="https://www.instagram.com/_.carlosvfb._" title="Ir para o instagram" target="_blank">
+                                        <i class="fab fa-instagram"></i>
+                                    </a></li>
+                            </ul>
+                        </div>
+                
+                        <div class="container-foto">
+                            <div class="foto sombra-interna">
+                                <img src="./src/image/image2.png" alt="foto do portifólio do Carlos">
+                            </div>
+                        </div>
+                    </section>
+
+
+                    
+                    <footer>
+                        <li>&copy; Carlos Vítor 2024 - Todos os direitos reservados</li>
+                    </footer>
+                </div>
+            </div>
+    </main>
+    <script defer src="./src/js/main.js"></script>
+
+</body>
+</html>
